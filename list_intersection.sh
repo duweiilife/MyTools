@@ -8,7 +8,6 @@ if(3!=@ARGV)
 
 ($key_list, $train_label, $train_txt)=@ARGV;
 
-
 open(IN,"$train_label") || die "Failed to open file[$train_label]!";
 
 
@@ -20,7 +19,6 @@ while($line=<IN>)
 }
 
 close(IN);
-
 
 open(IN,"$key_list") || die "Failed to open file[$key_list]!";
 open (OUT, ">$train_txt") || die "Failed to open file[$train_txt]!";
@@ -35,13 +33,5 @@ while($line=<IN>)
 	}
 }
 
-
-
 close(IN);
 close(OUT);
-
-
-
-
-
-
