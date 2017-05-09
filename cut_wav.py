@@ -8,7 +8,7 @@ import sys
 if len(sys.argv) != 2:
 	print 'Usage: cut_wav.py wav.scp:'
 	print 'wav.scp:'
-	print '			raw.wav new.wav start_time end_time'
+	print '	raw.wav new.wav start_time end_time'
 	sys.exit();
 
 scp = sys.argv[1]
