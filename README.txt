@@ -1,3 +1,7 @@
+run_multiprocess.sh
+	Multiprocess running script.
+	nj: num jobs
+	
 list_intersection.pl
 	Get the intersection of two sets with the same keys.
 	eg:
@@ -11,9 +15,9 @@ list_intersection.pl
 	outset:
 	key2  value2
 	key3  value3
-	
+
 cut_wav.py
-	Cut wav with start and end.
+	Cut wave file by start timestamp and end timestamp.
 	eg:
 	python cut_wav.py wav.scp
 	
